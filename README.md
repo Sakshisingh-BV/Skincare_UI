@@ -6,8 +6,9 @@ A beautifully crafted skincare website UI designed to provide an elegant and sea
 ---
 
 ## 🖼️ Preview
-![Website Preview](./preview.png)  
+![Website Preview](./preveiw.png)  
 > *Screenshot of the Skincare UI Design*
+
 
 ---
 
