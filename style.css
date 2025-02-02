@@ -1,0 +1,559 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+
+
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+    color: white;
+
+}
+.search-input{
+    color:#141212;
+    font-family: "Playwrite DE Grund", cursive;
+    border-top-left-radius: 5px ;
+    border-bottom-left-radius: 5px;
+    
+    
+
+
+}
+
+.navbar{
+     height: 90px;
+     background-color: black;
+     color: rgba(232, 227, 227, 0.979);
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     
+     
+    
+     }
+     .design{
+        width : 30px;
+        height: 37px;
+        background-color: rgb(203, 130, 13) ;
+    }
+    
+body{
+    background-color: whitesmoke;/* burlywood;*/
+    margin-top: 0px;
+}
+.navlogo{
+    height: 50x;
+    width: 150px;
+    margin-left: 20px;
+    margin-right: 60px;
+}
+.logo{
+    background-image: url("ss.png");
+    height: 50px;
+    background-size: cover;
+    width:150px;
+}
+.input{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+     justify-content: center;
+}
+
+      .slider_container {
+        position: relative;
+        width: 100%;
+        height: 450px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        overflow: hidden;
+        
+      }
+      .slider {
+        position: relative;
+        width: 400%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        animation: 20s cubic-bezier(1, 0.95, 0.565, 1) sliding infinite;
+      }
+      .slide {
+        position: relative;
+        min-width: 100%;
+        height: 100%;
+      }
+      .slide img {
+        width: 100%;
+        height: 450px;
+      }
+      
+      @keyframes sliding {
+        0% {
+          transform: translateX(0%);
+        }
+        10% {
+          transform: translateX(0%);        /*10*/
+        }
+        15% {
+          transform: translateX(-100%);     /*15*/
+        }
+        25% {
+          transform: translateX(-100%);   /*25*/
+        }
+        30% {
+          transform: translateX(-200%);  /*30*/
+        }
+        40% {
+          transform: translateX(-200%);    /*40*/
+        }
+        45% {
+          transform: translateX(-300%);  /* 45*/
+        }
+        50% {
+          transform: translateX(-300%);   /*55*/
+        }
+        60% {
+          transform: translateX(-400%);    /*60*/
+        }
+        70% {
+            transform: translateX(-400%);  /*70*/
+          }
+        75% {
+            transform: translateX(-500%);  /*75*/
+          }
+        100% {
+            transform: translateX(-500%); /*85% */
+          }
+      }
+
+ .abc{
+    margin-right: 150px;
+    height:40px;
+    width:130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.icon{
+    height:40px;
+    width:180px;
+}
+.border{
+    border: 2px solid transparent;
+    border-radius: 30px;
+
+}
+.border:hover{
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: white;
+    color:  rgb(233, 136, 136);
+
+}
+
+
+    
+button{
+    background-color: rgb(241, 191, 9);
+    height:50px;
+    width: 30px;
+}
+
+.text h2{
+    color:rgb(63, 62, 62);
+    font-family: "Playwrite DE Grund", cursive;
+     margin-left: 25px;
+     word-spacing: 0.2em;
+     font-weight: lighter 100;
+     margin-top: 30px;
+     margin-bottom: 20px;
+    
+
+}
+.text2 h2{
+    color:rgb(63, 62, 62);
+    font-family: "Playwrite DE Grund", cursive;
+     text-align:left;
+     word-spacing: 0.2em;
+     font-weight: lighter 100;
+     margin-top: 45px;}
+
+.text3 h2{
+    color:rgb(63, 62, 62);
+    font-family: "Playwrite DE Grund", cursive;
+     text-align:left;
+     word-spacing: 0.2em;
+     font-weight: lighter 100;
+     
+    
+}
+
+
+
+.shop{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    border: 2px solid black;
+    height: 400px;
+    width: 23%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.box-img{
+    height: 399px;
+    object-fit: cover;
+}
+.box-img2{
+    height: 399px;
+    object-fit: cover;
+
+}
+.box-img3{
+    height: 399px;
+    object-fit: cover;
+}
+.box-img4{
+    height: 399px;
+    object-fit: cover;
+}
+.search-input{
+    width: 300px;
+    height: 20px;
+}
+.text2{
+    font-size: large;
+    font-weight: bolder ;
+    margin-top: 30px;
+    margin-left:30px;
+    margin-bottom: 35px;
+    
+
+}
+
+
+.img1{
+    width: 100%;
+    height: 100%;
+}
+
+
+.textbar{ 
+    margin-top:50px;
+    height:70px;
+    background-color: rgb(242, 234, 234);
+    border: 3px solid burlywood ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:5px;
+}
+span{
+    display: block;
+    height: 100%;
+    padding-left: 10px;
+    animation: spin_words 3s infinite linear;
+}
+
+@keyframes spin_words {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+
+    
+
+}
+
+
+
+   
+
+.img2{
+  height: 560px;
+  width:800px;
+}
+.img3{
+    height:540px;
+    width:100%;
+}
+image{
+    background-image: url("imges.webp");
+    background-size: cover;
+    height: 450px;
+}
+.shoop{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.bos{
+    border: 4px solid rgb(247, 66, 136);
+    border-radius: 20px;
+    height: 400px;
+    width: 23%;
+    margin-top: 15px;
+    transition: transform 0.3s ease;
+    margin-bottom: 45px;
+}
+
+
+
+figcaption{
+    
+    color: rgb(23, 22, 22);
+    font-size: x-large;
+    font-weight:bold;
+    font-family: "Playwrite DE Grund", cursive;;
+    padding: 5px;
+    text-align: center;
+    margin-top:5px;
+}
+.bos:hover{
+    transform: scale(1.05); /* Scale up the card on hover */
+    background-color: #f8eff3; /* Change the background color on hover */
+}
+
+.text3{
+    font-size: large;
+    font-weight: bolder ;
+    margin-top: 80px;
+    margin-left:30px;
+    margin-bottom: 35px;
+    
+
+}
+
+
+.cover{
+    width:900px;
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+    
+
+}
+#te {
+    width: 350px;
+    height: 399px;
+    border-radius: 70%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(21, 21, 21);
+    border-image: initial;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.cards {
+    height: 400px;
+    width: 23%;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease 0s;
+}
+.cards:hover{
+    transform: scale(1.09); /* Scale up the card on hover */
+    
+}
+
+.hyy {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    height: 700px;
+    margin-bottom: 100px;
+}
+.cards h2 {
+    margin-top: 15px;
+    color: rgb(10, 8, 8);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.cards p {
+    color: rgb(39, 37, 37);
+    margin-top: 12px;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.about {
+    margin-top: 150px;
+    font-size: 1.2rem;
+    width: 97%;
+    margin-bottom: 300px;
+}
+
+.about h1 {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 4.3rem;
+    padding-top: 60px;
+}
+
+
+ 
+ .btn-pink {
+    background-color:peachpuff;
+    width: fit-content;
+    color: rgb(11, 10, 10);
+    display: flex;
+    padding: 0.8rem 5rem;
+    box-shadow: 5px 5px 7px 0px #0000003f;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-weight: 500;
+    border: solid 3px black;
+    position: relative;
+    z-index: 1;
+    margin-top: 10px;
+    /*text-align: right;*/
+    
+  }
+  .btn-pink h4{
+    color: rgb(193, 55, 131);
+    padding-left: 1rem;
+  }
+  .btn-pink::before {
+    content: "";
+    position: absolute;
+    background-color: #ef96b7;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 0.8s;
+  }
+  .btn-pink:hover::before {
+    transform: scaleX(1);
+  }
+  .btn-pink:hover {
+    border: solid 3px var(--bgOrange);
+    color: black;
+  }
+  .fa-solid{
+    color:rgb(20, 20, 22);
+    height: 8px;
+  }
+
+.about {
+   margin-top: 100px;
+   font-size: 1.2rem;
+   width:97%;
+   margin-bottom: 300px;
+   
+  
+}
+
+.about h1{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 4.3rem;
+    padding-top: 60px;
+    
+}
+.contain{
+    max-width: 1190px;
+    margin:auto;
+  }
+  .row{
+    display: flex;
+    /*flex-wrap: wrap;*/
+  }
+  ul{
+    list-style: none;
+  }
+  .footer{
+    background-color: rgb(197, 239, 229);
+      padding: 70px 0;
+  }
+  .footer-col{
+     width: 25%;
+     padding: 0 15px;
+  }
+  .footer-col h4{
+    font-size: 18px;
+    color: #141212;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 90px;
+  }
+  .footer-col ul li:not(:last-child){
+   
+    margin-bottom: 10px;
+  }
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #3a3838;
+    text-decoration: none;
+    font-weight: 300;
+    color: #282626;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+    color: #2c2b2b;
+    padding-left: 8px;
+  }
+  .footer-col .social-links a{
+    display: block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(7, 6, 6, 0.978);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+   
+  }
+  .footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #504e4e;
+  }
+  
+  /*responsive*/
+  @media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }
+  
